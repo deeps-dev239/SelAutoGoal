@@ -1,0 +1,12 @@
+<suite name="AutomationSuite">
+    <listeners>
+        <listener class-name="com.automation.utils.TestListener"/>
+    </listeners>
+    <test name="AutomationTests">
+        <classes>
+            <class name="com.automation.tests.LoginTest"/>
+            <class name="com.automation.tests.AddToCartTest"/>
+            <class name="com.automation.tests.CheckoutTest"/>
+        </classes>
+    </test>
+</suite>
